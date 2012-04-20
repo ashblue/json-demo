@@ -1,8 +1,6 @@
 <?php
-
-$arr = array ('a'=>1,'b'=>2,'c'=>3,'d'=>4,'e'=>5);
-$data = get_images('images');
-echo list_items($data);
+$images = get_images('images');
+echo list_items($images);
 
 function get_images($dir) {
 	// Get image data
